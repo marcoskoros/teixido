@@ -1,0 +1,10 @@
+if $children do
+    <ul class="projects">
+  foreach $children do
+        <li class="col two">
+            <a href="@url">@page_name - bien</a>
+      :children
+    </li>
+  endforeach
+  </ul>
+endif

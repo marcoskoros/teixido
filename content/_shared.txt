@@ -1,0 +1,6 @@
+name: Xavier Teixidó
+-
+profession: Pinturas, Ilustración, Dibujos
+-
+email: 
+<javier@teixido.es>

@@ -1,0 +1,35 @@
+
+foreach $images do
+<div class="image">
+    if @description do
+    <div id="imag"><span style="font-size: 1em; font-weight: bold;">@title</span></div>
+    endif
+    <img src="@url" alt="@title" title="@title" width="@width" height="@height">
+        if @description do
+    <div id="imag">Medidas: @description | Técnica: @keywords</div>
+    endif
+</div>
+endforeach
+
+
+
+
+<!--
+
+
+foreach $images do
+    if @description do
+<div id="image-side">
+
+    @title</br>
+    </br>
+    Medidas: @description</br>
+    Técnica: @keywords
+    
+</div>
+    endif
+<div class="image">
+    <img src="@url" alt="@title" title="@title" width="@width" height="@height">
+</div>
+endforeach
+-->
